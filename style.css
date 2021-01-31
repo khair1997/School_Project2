@@ -1,0 +1,260 @@
+{
+	margin:0;
+	padding:0;
+	box-size:border-box;
+}
+body{
+	background-color:snow;
+	background-position:center;
+	font-family:sans-serif;
+}
+.logo_and_name{
+	height: 150px;
+	padding: 20px 0px;
+}
+.logo_and_name img{
+	float: left;
+	height: 110px;
+	width: 100px;
+}
+.school_name{
+	float: left;
+	width: 60%;
+}
+.school_name p{
+	text-align: left;
+}
+
+.school_name .english {
+    font-weight: bold;
+    padding: 5px 0px 5px 25px;
+    margin-bottom: 0px;
+    color: #333;
+	font-size: 28px;
+}
+.right_side_some_info{
+	float: left;
+	width: 31%;
+	height: 100px;
+}
+.right_side_some_info ul{
+	float: right;
+}
+.right_side_some_info ul li{
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+}
+.right_side_some_info ul li:first-child{
+	margin-right: 10px;
+}
+.right_side_some_info ul li i{
+	font-size: 18px;
+}
+.menu-bar{
+	background: rgb(206, 228, 225);
+	text-align: left;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: rgb(163, 180, 212);
+}
+.menu-bar ul li{
+	width: 100px;
+	margin: 10px;
+	padding: 10px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: fff;
+}
+.active,.menu-bar ul li:hover{
+background-color: rgb(154, 169, 212);
+border-radius: 3px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: rgb(182, 193, 196);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: rgb(253, 250, 250);
+}
+
+
+.top_news_scroll{
+	height: 32px;
+	width: 10%;
+	float: right;
+	background-color: #004d40;
+	border-radius: 10px;
+}
+.name_for_news{
+	color: #fff;
+	font-weight: bold;
+	width: 10%;
+	float: left;
+	padding: 7px 10px;
+	background: #004d40;
+	border-radius: 0px;
+}
+.path_for_news{
+	width: 90%;
+	float: right;
+	padding: 7px 10px;
+}
+.path_for_news a{
+	color: #333;
+	padding-right: 15px;
+}
+.path_for_news a:hover{
+	text-decoration: underline;
+}
+.slider_notice{
+	margin: 20px 0px;
+}
+
+
+.card_slider .carousel-inner{
+	padding: 18px 10px;
+	box-shadow: 0 0 10px rgba(8, 8, 8, 0.5);
+	text-align: center;
+}
+.card_custome img{
+	height: 100px;
+	width: 100px;
+	border-radius: 20%;
+}
+.custome_card_title{
+	margin: 10px 0px;
+	font-weight: bold;
+}
+.custome_card_text{
+	line-height: 1.8;
+}
+.custome_card_body{
+	height: 200px;
+}
+
+.default_heading{
+	font-family: sans-serif;
+	text-align: center;
+	margin: 30px 0px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.notice_board{
+	margin-bottom: 30px;
+	background-color: azure;
+}
+.notice_title {
+    background-color: #004d40;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 0px;
+}
+.notice_title h3{
+	margin-bottom: 0px;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+}
+.list-group{
+	background: rgb(81, 102, 100);
+	text-align: left;
+}
+.list-group ul{
+	display: inline-flex;
+	list-style:none;
+	color: rgb(163, 180, 212);
+}
+
+.notice_body{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.notice_title{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.list-group-item{
+	float: left;
+	border-radius: 1px;
+	background-position: left;
+    width: 100%;
+    height:auto;
+    padding: 15px -10px;
+}
+
+
+
+{
+	margin: 0px;
+ }
+ 
+ .h1{
+  text-align: left;
+ }
+ 
+ .header{
+ background:floralwhite;
+ font-family: sans-serif;
+ font-size: 30px;
+ padding: 20px;
+ }
+ main{
+	   margin-left: 50px;
+		 width: 100%;
+		 margin-top: 20px;
+ }
+ .box{
+  width: 22%;
+  float: left;
+  padding: 5px;
+  padding-left: 10px;  
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+ 
+ }
+ 
+ img{
+  width: 100%;
+	 border-radius: 10px;
+ 
+ }
+ 
+
+ 
+ 
